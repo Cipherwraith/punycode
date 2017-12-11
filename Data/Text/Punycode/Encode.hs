@@ -10,6 +10,7 @@ import qualified Data.Text as T
 import qualified Data.Text.Encoding as TE
 import           Data.Word
 
+import           Data.Text.Punycode.Shared
 
 data PunycodeState = PunycodeState 
   { n     :: {-# UNPACK #-} !Int

@@ -1,6 +1,6 @@
 {-# LANGUAGE FlexibleContexts #-}
 
-module Punycode (encode) where
+module Data.Text.Punycode.Encode (encode) where
 
 import           Control.Monad.State hiding (state)
 import           Control.Monad.Writer
